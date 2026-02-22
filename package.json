@@ -1,6 +1,6 @@
 {
 	"name": "@pedr0ni/nestjs-better-auth",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Better Auth for NestJS",
 	"author": "Matheus Pedroni",
 	"license": "MIT",
@@ -20,11 +20,13 @@
 		"test": "vitest"
 	},
 	"types": "dist/index.d.ts",
+	"main": "./dist/index.cjs",
 	"exports": {
 		".": {
-			"types": "./dist/index.d.mts",
-			"import": "./dist/index.mjs",
-			"default": "./dist/index.mjs"
+			"types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.mjs"
 		}
 	},
 	"files": [
