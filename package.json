@@ -1,8 +1,8 @@
 {
 	"name": "@pedr0ni/nestjs-better-auth",
-	"version": "2.4.0",
+	"version": "1.0.0",
 	"description": "Better Auth for NestJS",
-	"author": "Thalles Passos",
+	"author": "Matheus Pedroni",
 	"license": "MIT",
 	"keywords": [
 		"nestjs",
@@ -13,7 +13,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "unbuild",
-		"prepack": "bun run unbuild",
+		"prepack": "npx unbuild",
 		"lint": "biome lint",
 		"format": "biome format",
 		"check": "biome check",
